@@ -13,11 +13,11 @@ main{
     position: absolute;
     left: 0;
     width: 30%;
-    height: 270px;
+    height: 100%;
 }
 #div-main{
     position: absolute;
     right: 0;
     width: 70%;
-    height: 270px;
+    height: 100%;
 }
