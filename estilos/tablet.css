@@ -5,8 +5,8 @@ body{
 }
 
 main{
-    min-width: 80vw;
-    min-height: 270px;
+    width: 80vw;
+    height: 270px;
 }
 
 #div-img{

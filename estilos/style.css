@@ -19,12 +19,12 @@ main{
     transform: translate(-50%, -50%);
     background-color: white;
     width: calc(150px + 25vw);
-    min-height: 500px;
+    height: 500px;
     border-radius: 20px;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.400);
     overflow: hidden;
     transition: width .3s, height .3s;
-    transition-timing-function: ease;
+    transition-timing-function: ease-in;
 }
 
 main h1{
