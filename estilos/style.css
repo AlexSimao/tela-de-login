@@ -18,10 +18,11 @@ main{
     left: 50%;
     transform: translate(-50%, -50%);
     background-color: white;
-    max-width: calc(200px + 15vw);
+    max-width: 70vw;
     min-height: 500px;
     border-radius: 20px;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.350);
+    overflow: hidden;
 }
 
 main h1{
@@ -36,7 +37,6 @@ main h1{
     height: 200px;
     background: black url(../imagens/paisagem.jpg) no-repeat left center;
     background-size: cover;
-    border-radius: 15px 15px 0 0;
 }
 
 #div-main{
