@@ -4,7 +4,7 @@ body{
     background-image: linear-gradient(to bottom, rgb(89, 42, 133), rgb(185, 255, 185));
 }
 
-main{
+#imain{
     min-width: 80vw;
     min-height: 270px;
 }

@@ -12,16 +12,16 @@ body{
     height: 100vh;
 }
 
-main{
+#imain{
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     background-color: white;
-    max-width: 70vw;
+    width: calc(150px + 25vw);
     min-height: 500px;
     border-radius: 20px;
-    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.350);
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.400);
     overflow: hidden;
 }
 
