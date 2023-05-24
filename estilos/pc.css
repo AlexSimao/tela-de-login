@@ -1,6 +1,6 @@
 @charset "UTF-8";
 
-#imain{
+main{
     min-height: 350px;
     min-width: 950px;
 }
@@ -9,14 +9,14 @@
     left: auto;
     right: 0;
     min-width: 50%;
-    height: 350px;
+    height: 100%;
 }
 
 #div-main{
     right: auto;
     left: 0;
     width: 50%;
-    height: 350px;
+    height: 100%;
 }
 
 #div-main h1{
