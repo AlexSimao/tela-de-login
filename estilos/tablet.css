@@ -1,0 +1,24 @@
+@charset "UTF-8";
+
+body{
+    background-image: linear-gradient(to bottom, rgb(89, 42, 133), rgb(185, 255, 185));
+}
+
+main{
+    min-width: 80vw;
+    min-height: 270px;
+}
+
+#div-img{
+    position: absolute;
+    left: 0;
+    width: 30%;
+    height: 270px;
+    border-radius: 15px 0 0 15px;
+}
+#div-main{
+    position: absolute;
+    right: 0;
+    width: 70%;
+    height: 270px;
+}
