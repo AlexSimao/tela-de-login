@@ -10,34 +10,28 @@
     <link rel="stylesheet" href="estilos/tablet.css" media="screen and (min-width: 750px)">
     <link rel="stylesheet" href="estilos/pc.css" media="screen and (min-width: 1000px)">
 </head>
-<body onresize="mudouTamanho()">
-    <main id="imain">
-        <section id="conteiner">
-            <div id="div-img">
-            
-            </div>
-            <div id="div-main">
-                <h1>Login</h1>
-                <p>Bem-vindo(a) de volta, acesse sua conta para fazer as configurações no seu ambiente.</p>
-                <form action="form.php" method="post" autocomplete="on">
-                    <div class="inputs">
-                        <label for="iemail"><i class="material-symbols-outlined">person</i></label>
-                        <input type="email" name="email" id="iemail" required placeholder="Seu email" autocomplete="email">
-                    </div>
-            
-                    <div class="inputs">
-                        <label for="isenha"><i class="material-symbols-outlined">vpn_key</i></label>
-                        <input type="password" name="senha" id="isenha" required placeholder="Sua senha" autocomplete="current-password">
-                    </div>
-                    <input class="btn" id="i01" type="submit" value="Entrar">
-                    <input class="btn" id="i02" type="button" value="Esqueci a senha">
-                </form>
-            </div>
-        </section>
-    </main>
-
-    <script>
+<body>
+    <main>
+        <div id="div-img">
         
-    </script>
+        </div>
+        <div id="div-main">
+            <h1>Login</h1>
+            <p>Bem-vindo(a) de volta, acesse sua conta para fazer as configurações no seu ambiente.</p>
+            <form action="form.php" method="post" autocomplete="on">
+                <div class="inputs">
+                    <label for="iemail"><i class="material-symbols-outlined">person</i></label>
+                    <input type="email" name="email" id="iemail" required placeholder="Seu email" autocomplete="email">
+                </div>
+        
+                <div class="inputs">
+                    <label for="isenha"><i class="material-symbols-outlined">vpn_key</i></label>
+                    <input type="password" name="senha" id="isenha" required placeholder="Sua senha" autocomplete="current-password">
+                </div>
+                <input class="btn" id="i01" type="submit" value="Entrar">
+                <input class="btn" id="i02" type="button" value="Esqueci a senha">
+            </form>
+        </div>
+    </main>
 </body>
 </html>
