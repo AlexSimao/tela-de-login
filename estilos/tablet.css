@@ -1,7 +1,7 @@
 @charset "UTF-8";
 
 body{
-    background-image: linear-gradient(to bottom, rgb(89, 42, 133), rgb(185, 255, 185));
+    background-image: linear-gradient(to bottom, rgb(89, 42, 133) 25%, rgb(185, 255, 185));
 }
 
 main{
